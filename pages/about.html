@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About - James Chan Feeney | Software Engineer & Data Scientist</title>
+    <meta name="description" content="Learn about James Chan Feeney's journey from UCLA Mathematics to AWS infrastructure engineering. Discover the story behind 70% performance improvements and $1M+ cost savings." />
+    <meta name="keywords" content="James Chan Feeney, About, UCLA Mathematics, AWS Engineer, Software Engineering Career, Data Science Background" />
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="About James Chan Feeney - From UCLA Mathematics to AWS Infrastructure" />
+    <meta property="og:description" content="The professional story of a rising talent bridging theoretical mathematics with scalable engineering solutions." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://jameschanfeeney.com/about" />
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="../public/favicon.ico" />
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../css/main.css" />
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "James Chan Feeney",
+        "jobTitle": "Software Engineer",
+        "description": "Software Engineer and Data Scientist with UCLA Mathematics background specializing in AWS infrastructure",
+        "url": "https://jameschanfeeney.com/about",
+        "alumniOf": {
+            "@type": "CollegeOrUniversity",
+            "name": "University of California, Los Angeles",
+            "department": "Mathematics"
+        },
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Amazon Web Services"
+            },
+            {
+                "@type": "Organization", 
+                "name": "FedEx"
+            }
+        ]
+    }
+    </script>
+<script type="module" src="https://static.rocket.new/rocket-web.js?_cfg=https%3A%2F%2Fjameschan4739back.builtwithrocket.new&_be=https%3A%2F%2Fapplication.rocket.new&_v=0.1.8"></script>
+</head>
+<body class="bg-white text-slate-900 antialiased">
+    <!-- Sticky Header Navigation -->
+    <header id="header" class="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-slate-200 transition-all duration-300">
+        <nav class="container-max px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <!-- Logo -->
+                <div class="flex items-center">
+                    <a href="homepage.html" class="flex items-center space-x-2">
+                        <div class="w-10 h-10 bg-gradient-to-br from-blue-600 to-sky-500 rounded-lg flex items-center justify-center">
+                            <span class="text-white font-bold text-lg">JC</span>
+                        </div>
+                        <span class="font-semibold text-slate-900 text-lg">James Chan</span>
+                    </a>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="homepage.html" class="text-slate-600 hover:text-slate-900 transition-colors">Home</a>
+                    <a href="about.html" class="text-blue-600 font-medium hover:text-blue-700 transition-colors">About</a>
+                    <a href="experience.html" class="text-slate-600 hover:text-slate-900 transition-colors">Experience</a>
+                    <a href="projects.html" class="text-slate-600 hover:text-slate-900 transition-colors">Projects</a>
+                    <a href="skills.html" class="text-slate-600 hover:text-slate-900 transition-colors">Skills</a>
+                    <a href="contact.html" class="text-slate-600 hover:text-slate-900 transition-colors">Contact</a>
+                </div>
+
+                <!-- CTA Buttons -->
+                <div class="hidden md:flex items-center space-x-4">
+                    <!-- Theme Toggle -->
+                    <button id="theme-toggle" class="p-2 rounded-lg hover:bg-slate-100 transition-colors" aria-label="Toggle theme">
+                        <svg class="w-5 h-5 text-slate-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/>
+                        </svg>
+                    </button>
+                    
+                    <!-- Resume Download -->
+                    <a href="javascript:void(0)" class="btn-secondary text-sm">
+                        <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                        </svg>
+                        Resume
+                    </a>
+                    
+                    <!-- LinkedIn CTA -->
+                    <a href="https://linkedin.com/in/jameschanfeeney" target="_blank" class="btn-primary text-sm">
+                        <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                        </svg>
+                        Connect
+                    </a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button id="mobile-menu-button" class="md:hidden p-2 rounded-lg hover:bg-slate-100 transition-colors">
+                    <svg class="w-6 h-6 text-slate-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Mobile Navigation Menu -->
+            <div id="mobile-menu" class="hidden md:hidden py-4 border-t border-slate-200">
+                <div class="flex flex-col space-y-4">
+                    <a href="homepage.html" class="text-slate-600">Home</a>
+                    <a href="about.html" class="text-blue-600 font-medium">About</a>
+                    <a href="experience.html" class="text-slate-600">Experience</a>
+                    <a href="projects.html" class="text-slate-600">Projects</a>
+                    <a href="skills.html" class="text-slate-600">Skills</a>
+                    <a href="contact.html" class="text-slate-600">Contact</a>
+                    <div class="flex items-center space-x-4 pt-4 border-t border-slate-200">
+                        <a href="javascript:void(0)" class="btn-secondary text-sm flex-1 text-center">Resume</a>
+                        <a href="https://linkedin.com/in/jameschanfeeney" target="_blank" class="btn-primary text-sm flex-1 text-center">Connect</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="about-hero" class="relative pt-24 pb-16 bg-gradient-to-br from-slate-50 via-white to-blue-50 overflow-hidden">
+        <!-- Background Pattern -->
+        <div class="absolute inset-0 opacity-5">
+            <div class="absolute inset-0" style="background-image: url('data:image/svg+xml,%3Csvg width=" 60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" %3E%3Cg fill="none" fill-rule="evenodd" fill-opacity="0.1" %3E%3Ccircle cx="7" cy="7" r="1" %3E%3C g%3E%3C svg%3E')"></div>
+        </div>
+
+        <div class="container-max px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="max-w-4xl mx-auto text-center">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-slate-900 mb-6">
+                    The Story Behind
+                    <span class="text-gradient block">Precision at Scale</span>
+                </h1>
+                <p class="text-xl md:text-2xl text-slate-600 mb-8 leading-relaxed">
+                    From UCLA mathematics theory to AWS production systems that serve millions
+                </p>
+                
+                <!-- Quick Stats -->
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+                    <div class="text-center">
+                        <div class="text-3xl md:text-4xl font-bold text-blue-600 mb-2">UCLA</div>
+                        <div class="text-sm text-slate-600">Mathematics Graduate</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl md:text-4xl font-bold text-emerald-600 mb-2">3+</div>
+                        <div class="text-sm text-slate-600">Years Engineering</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl md:text-4xl font-bold text-sky-600 mb-2">2</div>
+                        <div class="text-sm text-slate-600">Major Internships</div>
+                    </div>
+                </div>
+
+                <!-- Scroll Indicator -->
+                <div class="animate-bounce">
+                    <svg class="w-6 h-6 mx-auto text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Personal Introduction -->
+    <section id="introduction" class="section-padding bg-white">
+        <div class="container-max">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <!-- Profile Image -->
+                <div class="relative">
+                    <div class="aspect-square rounded-2xl overflow-hidden shadow-portfolio-lg">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="James Chan Feeney" class="w-full h-full object-cover" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                    </div>
+                    
+                    <!-- Floating Elements -->
+                    <div class="absolute -top-4 -right-4 w-20 h-20 bg-blue-100 rounded-full opacity-20 animate-pulse-slow"></div>
+                    <div class="absolute -bottom-6 -left-6 w-24 h-24 bg-sky-100 rounded-full opacity-20 animate-pulse-slow" style="animation-delay: 1s;"></div>
+                </div>
+
+                <!-- Introduction Content -->
+                <div class="space-y-6">
+                    <div>
+                        <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
+                            Bridging Theory and Practice
+                        </h2>
+                        <p class="text-lg text-slate-600 leading-relaxed mb-6">
+                            I'm James Chan Feeney, a software engineer and data scientist who believes that the most elegant solutions emerge from the intersection of mathematical rigor and practical engineering excellence.
+                        </p>
+                        <p class="text-lg text-slate-600 leading-relaxed mb-6">
+                            My journey began at UCLA, where I immersed myself in pure mathematics, developing a deep appreciation for logical precision and systematic problem-solving. But I quickly realized that the real magic happens when you take those theoretical foundations and apply them to solve real-world challenges at scale.
+                        </p>
+                        <p class="text-lg text-slate-600 leading-relaxed">
+                            Today, I specialize in transforming complex data challenges into scalable engineering solutions, whether that's optimizing PySpark pipelines for 70% performance improvements or architecting AWS infrastructure that saves companies millions annually.
+                        </p>
+                    </div>
+
+                    <!-- Core Values -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="flex items-center space-x-3">
+                            <div class="w-8 h-8 bg-blue-100 rounded-lg flex items-center justify-center">
+                                <svg class="w-4 h-4 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                </svg>
+                            </div>
+                            <span class="font-medium text-slate-900">Precision First</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <div class="w-8 h-8 bg-emerald-100 rounded-lg flex items-center justify-center">
+                                <svg class="w-4 h-4 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                                </svg>
+                            </div>
+                            <span class="font-medium text-slate-900">Performance Driven</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <div class="w-8 h-8 bg-sky-100 rounded-lg flex items-center justify-center">
+                                <svg class="w-4 h-4 text-sky-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+                                </svg>
+                            </div>
+                            <span class="font-medium text-slate-900">Team Focused</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <div class="w-8 h-8 bg-orange-100 rounded-lg flex items-center justify-center">
+                                <svg class="w-4 h-4 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364-.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+                                </svg>
+                            </div>
+                            <span class="font-medium text-slate-900">Innovation Minded</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Career Timeline -->
+    <section id="timeline" class="section-padding bg-slate-50">
+        <div class="container-max">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4">My Journey</h2>
+                <p class="text-lg text-slate-600 max-w-2xl mx-auto">From mathematical foundations to engineering excellence</p>
+            </div>
+
+            <div class="relative">
+                <!-- Timeline Line -->
+                <div class="absolute left-1/2 transform -translate-x-1/2 w-1 h-full bg-slate-200 hidden lg:block"></div>
+
+                <!-- Timeline Items -->
+                <div class="space-y-12">
+                    <!-- UCLA Mathematics -->
+                    <div class="timeline-item group" data-aos="fade-up">
+                        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+                            <div class="lg:text-right lg:pr-8">
+                                <div class="card hover:shadow-portfolio-hover transition-all duration-300">
+                                    <div class="flex items-center mb-4 lg:justify-end">
+                                        <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mr-4 lg:mr-0 lg:ml-4 lg:order-2">
+                                            <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
+                                            </svg>
+                                        </div>
+                                        <div class="lg:order-1">
+                                            <h3 class="text-xl font-semibold text-slate-900">UCLA Mathematics</h3>
+                                            <p class="text-sm text-slate-500">2020 - 2024</p>
+                                        </div>
+                                    </div>
+                                    <p class="text-slate-600 mb-4">
+                                        Built a strong foundation in mathematical reasoning, abstract thinking, and systematic problem-solving. Specialized in areas that would later prove invaluable for data science and algorithm optimization.
+                                    </p>
+                                    <div class="flex flex-wrap gap-2">
+                                        <span class="achievement-badge">Pure Mathematics</span>
+                                        <span class="achievement-badge">Statistical Analysis</span>
+                                        <span class="achievement-badge">Algorithm Theory</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hidden lg:flex justify-center">
+                                <div class="w-4 h-4 bg-blue-600 rounded-full border-4 border-white shadow-md"></div>
+                            </div>
+                            <div class="lg:pl-8">
+                                <img src="https://images.unsplash.com/photo-1607237138185-eedd9c632b0b?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="UCLA Campus" class="w-full h-48 object-cover rounded-lg shadow-md" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Bruin Tennis Consulting -->
+                    <div class="timeline-item group" data-aos="fade-up" data-aos-delay="100">
+                        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+                            <div class="lg:pr-8">
+                                <img src="https://images.unsplash.com/photo-1554068865-24cecd4e34b8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Tennis Consulting" class="w-full h-48 object-cover rounded-lg shadow-md" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                            </div>
+                            <div class="hidden lg:flex justify-center">
+                                <div class="w-4 h-4 bg-emerald-600 rounded-full border-4 border-white shadow-md"></div>
+                            </div>
+                            <div class="lg:pl-8">
+                                <div class="card hover:shadow-portfolio-hover transition-all duration-300">
+                                    <div class="flex items-center mb-4">
+                                        <div class="w-12 h-12 bg-emerald-100 rounded-lg flex items-center justify-center mr-4">
+                                            <svg class="w-6 h-6 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+                                            </svg>
+                                        </div>
+                                        <div>
+                                            <h3 class="text-xl font-semibold text-slate-900">Team Leadership</h3>
+                                            <p class="text-sm text-slate-500">Bruin Tennis Consulting</p>
+                                        </div>
+                                    </div>
+                                    <p class="text-slate-600 mb-4">
+                                        Led a student consulting team, developing project management skills and learning to translate complex analytical insights into actionable business recommendations.
+                                    </p>
+                                    <div class="flex flex-wrap gap-2">
+                                        <span class="achievement-badge">Team Leadership</span>
+                                        <span class="achievement-badge">Project Management</span>
+                                        <span class="achievement-badge">Client Relations</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FedEx Internship -->
+                    <div class="timeline-item group" data-aos="fade-up" data-aos-delay="200">
+                        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+                            <div class="lg:text-right lg:pr-8">
+                                <div class="card hover:shadow-portfolio-hover transition-all duration-300">
+                                    <div class="flex items-center mb-4 lg:justify-end">
+                                        <div class="w-12 h-12 bg-sky-100 rounded-lg flex items-center justify-center mr-4 lg:mr-0 lg:ml-4 lg:order-2">
+                                            <svg class="w-6 h-6 text-sky-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                                            </svg>
+                                        </div>
+                                        <div class="lg:order-1">
+                                            <h3 class="text-xl font-semibold text-slate-900">Data Engineering Excellence</h3>
+                                            <p class="text-sm text-slate-500">FedEx - Summer 2023</p>
+                                        </div>
+                                    </div>
+                                    <p class="text-slate-600 mb-4">
+                                        Achieved breakthrough 70% performance improvement in PySpark pipelines while collaborating with 45+ District Managers across 500+ facilities covering 40,000+ ZIP codes.
+                                    </p>
+                                    <div class="flex flex-wrap gap-2">
+                                        <span class="achievement-badge">70% Performance Gain</span>
+                                        <span class="achievement-badge">PySpark Optimization</span>
+                                        <span class="achievement-badge">Enterprise Scale</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hidden lg:flex justify-center">
+                                <div class="w-4 h-4 bg-sky-600 rounded-full border-4 border-white shadow-md"></div>
+                            </div>
+                            <div class="lg:pl-8">
+                                <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Data Engineering" class="w-full h-48 object-cover rounded-lg shadow-md" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- AWS Internship -->
+                    <div class="timeline-item group" data-aos="fade-up" data-aos-delay="300">
+                        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+                            <div class="lg:pr-8">
+                                <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="AWS Cloud Infrastructure" class="w-full h-48 object-cover rounded-lg shadow-md" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                            </div>
+                            <div class="hidden lg:flex justify-center">
+                                <div class="w-4 h-4 bg-orange-600 rounded-full border-4 border-white shadow-md"></div>
+                            </div>
+                            <div class="lg:pl-8">
+                                <div class="card hover:shadow-portfolio-hover transition-all duration-300">
+                                    <div class="flex items-center mb-4">
+                                        <div class="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center mr-4">
+                                            <svg class="w-6 h-6 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
+                                            </svg>
+                                        </div>
+                                        <div>
+                                            <h3 class="text-xl font-semibold text-slate-900">Cloud Infrastructure</h3>
+                                            <p class="text-sm text-slate-500">AWS EC2 Core - Summer 2024</p>
+                                        </div>
+                                    </div>
+                                    <p class="text-slate-600 mb-4">
+                                        Contributed to AWS EC2 Core infrastructure serving millions of users, delivering $1M+ annual cost savings through strategic architecture improvements and operational excellence.
+                                    </p>
+                                    <div class="flex flex-wrap gap-2">
+                                        <span class="achievement-badge">$1M+ Cost Savings</span>
+                                        <span class="achievement-badge">AWS EC2 Core</span>
+                                        <span class="achievement-badge">Million+ Users</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Philosophy -->
+    <section id="philosophy" class="section-padding bg-white">
+        <div class="container-max">
+            <div class="max-w-4xl mx-auto">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Technical Philosophy</h2>
+                    <p class="text-lg text-slate-600">How I approach complex engineering challenges</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <!-- Philosophy Card 1 -->
+                    <div class="card group hover:shadow-portfolio-hover transition-all duration-300">
+                        <div class="flex items-center mb-4">
+                            <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mr-4">
+                                <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                </svg>
+                            </div>
+                            <h3 class="text-xl font-semibold text-slate-900">Mathematical Precision</h3>
+                        </div>
+                        <p class="text-slate-600 mb-4">
+                            Every solution starts with rigorous analysis. I believe in understanding the mathematical foundations before building, ensuring that optimizations are not just effective but theoretically sound.
+                        </p>
+                        <div class="text-sm text-slate-500">
+                            "Measure twice, code once" - but with mathematical proofs.
+                        </div>
+                    </div>
+
+                    <!-- Philosophy Card 2 -->
+                    <div class="card group hover:shadow-portfolio-hover transition-all duration-300">
+                        <div class="flex items-center mb-4">
+                            <div class="w-12 h-12 bg-emerald-100 rounded-lg flex items-center justify-center mr-4">
+                                <svg class="w-6 h-6 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                                </svg>
+                            </div>
+                            <h3 class="text-xl font-semibold text-slate-900">Performance First</h3>
+                        </div>
+                        <p class="text-slate-600 mb-4">
+                            Optimization isn't an afterthought—it's built into the architecture from day one. Whether it's PySpark pipelines or AWS infrastructure, performance considerations drive design decisions.
+                        </p>
+                        <div class="text-sm text-slate-500">
+                            70% improvements don't happen by accident.
+                        </div>
+                    </div>
+
+                    <!-- Philosophy Card 3 -->
+                    <div class="card group hover:shadow-portfolio-hover transition-all duration-300">
+                        <div class="flex items-center mb-4">
+                            <div class="w-12 h-12 bg-sky-100 rounded-lg flex items-center justify-center mr-4">
+                                <svg class="w-6 h-6 text-sky-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+                                </svg>
+                            </div>
+                            <h3 class="text-xl font-semibold text-slate-900">Collaborative Excellence</h3>
+                        </div>
+                        <p class="text-slate-600 mb-4">
+                            The best engineering solutions emerge from diverse perspectives. I prioritize clear communication, knowledge sharing, and building systems that teams can understand and maintain.
+                        </p>
+                        <div class="text-sm text-slate-500">
+                            Code is written for humans, not just computers.
+                        </div>
+                    </div>
+
+                    <!-- Philosophy Card 4 -->
+                    <div class="card group hover:shadow-portfolio-hover transition-all duration-300">
+                        <div class="flex items-center mb-4">
+                            <div class="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center mr-4">
+                                <svg class="w-6 h-6 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364-.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+                                </svg>
+                            </div>
+                            <h3 class="text-xl font-semibold text-slate-900">Scalable Innovation</h3>
+                        </div>
+                        <p class="text-slate-600 mb-4">
+                            Every solution must be designed for growth. I focus on building systems that can handle not just today's requirements, but tomorrow's challenges at enterprise scale.
+                        </p>
+                        <div class="text-sm text-slate-500">
+                            Think globally, optimize locally.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Personal Interests -->
+    <section id="interests" class="section-padding bg-slate-50">
+        <div class="container-max">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Beyond the Code</h2>
+                <p class="text-lg text-slate-600">What drives me outside of engineering</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Interest 1 -->
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-10 h-10 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-slate-900 mb-2">Continuous Learning</h3>
+                    <p class="text-slate-600">Always exploring new technologies, mathematical concepts, and engineering patterns. Currently diving deep into distributed systems and machine learning optimization.</p>
+                </div>
+
+                <!-- Interest 2 -->
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-emerald-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-10 h-10 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-slate-900 mb-2">Mentoring</h3>
+                    <p class="text-slate-600">Passionate about helping fellow students and early-career engineers navigate the intersection of mathematics and software engineering.</p>
+                </div>
+
+                <!-- Interest 3 -->
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-sky-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-10 h-10 text-sky-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-slate-900 mb-2">Tennis Strategy</h3>
+                    <p class="text-slate-600">Applying analytical thinking to tennis strategy and coaching. The same optimization mindset that improves PySpark pipelines works wonders on the court.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="cta" class="section-padding bg-gradient-to-r from-blue-600 to-sky-500">
+        <div class="container-max text-center">
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">Let's Build Something Amazing</h2>
+            <p class="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">Ready to discuss how mathematical precision and engineering excellence can drive your next project forward?</p>
+            
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                <a href="contact.html" class="bg-white text-blue-600 hover:bg-blue-50 font-semibold px-8 py-4 rounded-lg transition-colors duration-300 w-full sm:w-auto">
+                    <svg class="w-5 h-5 mr-2 inline" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                    </svg>
+                    Get In Touch
+                </a>
+                <a href="experience.html" class="bg-transparent border-2 border-white text-white hover:bg-white hover:text-blue-600 font-semibold px-8 py-4 rounded-lg transition-colors duration-300 w-full sm:w-auto">
+                    <svg class="w-5 h-5 mr-2 inline" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2-2v2m8 0V6a2 2 0 00-2 2H8a2 2 0 00-2-2V6m8 0h2a2 2 0 012 2v6a2 2 0 01-2 2H6a2 2 0 01-2-2V8a2 2 0 012-2h2"/>
+                    </svg>
+                    View Experience
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-white section-padding">
+        <div class="container-max">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+                <!-- Brand -->
+                <div class="md:col-span-2">
+                    <div class="flex items-center space-x-2 mb-4">
+                        <div class="w-10 h-10 bg-gradient-to-br from-blue-600 to-sky-500 rounded-lg flex items-center justify-center">
+                            <span class="text-white font-bold text-lg">JC</span>
+                        </div>
+                        <span class="font-semibold text-xl">James Chan Feeney</span>
+                    </div>
+                    <p class="text-slate-300 mb-4 max-w-md">Software Engineer and Data Scientist combining mathematical precision with scalable engineering solutions.</p>
+                    <div class="flex space-x-4">
+                        <a href="https://linkedin.com/in/jameschanfeeney" target="_blank" class="text-slate-400 hover:text-white transition-colors">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                        </a>
+                        <a href="https://github.com/jameschanfeeney" target="_blank" class="text-slate-400 hover:text-white transition-colors">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                        </a>
+                        <a href="mailto:james@example.com" class="text-slate-400 hover:text-white transition-colors">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="font-semibold text-lg mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="about.html" class="text-slate-300 hover:text-white transition-colors">About</a></li>
+                        <li><a href="experience.html" class="text-slate-300 hover:text-white transition-colors">Experience</a></li>
+                        <li><a href="projects.html" class="text-slate-300 hover:text-white transition-colors">Projects</a></li>
+                        <li><a href="skills.html" class="text-slate-300 hover:text-white transition-colors">Skills</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div>
+                    <h4 class="font-semibold text-lg mb-4">Contact</h4>
+                    <ul class="space-y-2 text-slate-300">
+                        <li>Los Angeles, CA</li>
+                        <li>james@example.com</li>
+                        <li><a href="contact.html" class="hover:text-white transition-colors">Get In Touch</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-slate-700 pt-8 text-center">
+                <p class="text-slate-400">© 2025 James Chan Feeney. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Theme toggle functionality
+        const themeToggle = document.getElementById('theme-toggle');
+        themeToggle.addEventListener('click', () => {
+            // Theme toggle logic would go here
+            console.log('Theme toggle clicked');
+        });
+
+        // Timeline animations
+        function animateTimeline() {
+            const timelineItems = document.querySelectorAll('.timeline-item');
+            
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('animation-fade-in');
+                    }
+                });
+            }, {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            });
+
+            timelineItems.forEach(item => {
+                observer.observe(item);
+            });
+        }
+
+        // Header scroll effect
+        function initHeaderScroll() {
+            const header = document.getElementById('header');
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 100) {
+                    header.classList.add('shadow-md');
+                } else {
+                    header.classList.remove('shadow-md');
+                }
+            });
+        }
+
+        // Smooth scrolling for anchor links
+        function initSmoothScrolling() {
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+        }
+
+        // Timeline hover effects
+        function initTimelineHovers() {
+            const timelineItems = document.querySelectorAll('.timeline-item');
+            
+            timelineItems.forEach(item => {
+                const card = item.querySelector('.card');
+                const image = item.querySelector('img');
+                
+                if (card && image) {
+                    card.addEventListener('mouseenter', () => {
+                        image.style.transform = 'scale(1.05)';
+                        image.style.transition = 'transform 0.3s ease';
+                    });
+                    
+                    card.addEventListener('mouseleave', () => {
+                        image.style.transform = 'scale(1)';
+                    });
+                }
+            });
+        }
+
+        // Progressive disclosure for timeline details
+        function initProgressiveDisclosure() {
+            const timelineItems = document.querySelectorAll('.timeline-item');
+            
+            timelineItems.forEach(item => {
+                const card = item.querySelector('.card');
+                let isExpanded = false;
+                
+                card.addEventListener('click', () => {
+                    if (!isExpanded) {
+                        // Add detailed content on click
+                        const detailsDiv = document.createElement('div');
+                        detailsDiv.className = 'mt-4 pt-4 border-t border-slate-200 text-sm text-slate-600';
+                        detailsDiv.innerHTML = '<p>Click to explore detailed technical achievements and methodologies...</p>';
+                        card.appendChild(detailsDiv);
+                        isExpanded = true;
+                    }
+                });
+            });
+        }
+
+        // Initialize all functionality
+        document.addEventListener('DOMContentLoaded', () => {
+            animateTimeline();
+            initHeaderScroll();
+            initSmoothScrolling();
+            initTimelineHovers();
+            initProgressiveDisclosure();
+        });
+
+        // Add scroll-triggered animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animation-fade-in');
+                }
+            });
+        }, observerOptions);
+
+        // Observe sections for animations
+        document.addEventListener('DOMContentLoaded', () => {
+            const sections = document.querySelectorAll('section');
+            sections.forEach(section => observer.observe(section));
+        });
+    </script>
+<script id="dhws-dataInjector" src="../public/dhws-data-injector.js"></script>
+</body>
+</html>

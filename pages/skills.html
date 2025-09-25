@@ -1,0 +1,1154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skills & Expertise - James Chan Feeney</title>
+    <meta name="description" content="Comprehensive technical skills matrix showcasing James Chan Feeney's expertise in cloud infrastructure, data engineering, and software development with quantified proficiency levels." />
+    <meta name="keywords" content="James Chan Feeney, Technical Skills, AWS, Python, PySpark, Data Engineering, Cloud Infrastructure, Software Engineering" />
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Technical Skills & Expertise - James Chan Feeney" />
+    <meta property="og:description" content="Interactive skills matrix with proficiency levels, technology timeline, and certification roadmap for software engineering and data science." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://jameschanfeeney.com/skills" />
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="../public/favicon.ico" />
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../css/main.css" />
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "James Chan Feeney",
+        "jobTitle": "Software Engineer",
+        "hasCredential": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "AWS Cloud Practitioner",
+                "credentialCategory": "certification"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Mathematics Degree",
+                "credentialCategory": "degree",
+                "educationalLevel": "Bachelor"
+            }
+        ],
+        "knowsAbout": ["AWS", "Python", "PySpark", "Data Engineering", "Cloud Infrastructure"],
+        "url": "https://jameschanfeeney.com"
+    }
+    </script>
+<script type="module" src="https://static.rocket.new/rocket-web.js?_cfg=https%3A%2F%2Fjameschan4739back.builtwithrocket.new&_be=https%3A%2F%2Fapplication.rocket.new&_v=0.1.8"></script>
+</head>
+<body class="bg-white text-slate-900 antialiased">
+    <!-- Sticky Header Navigation -->
+    <header id="header" class="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-slate-200 transition-all duration-300">
+        <nav class="container-max px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <!-- Logo -->
+                <div class="flex items-center">
+                    <a href="homepage.html" class="flex items-center space-x-2">
+                        <div class="w-10 h-10 bg-gradient-to-br from-blue-600 to-sky-500 rounded-lg flex items-center justify-center">
+                            <span class="text-white font-bold text-lg">JC</span>
+                        </div>
+                        <span class="font-semibold text-slate-900 text-lg">James Chan</span>
+                    </a>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="homepage.html" class="text-slate-600 hover:text-slate-900 transition-colors">Home</a>
+                    <a href="about.html" class="text-slate-600 hover:text-slate-900 transition-colors">About</a>
+                    <a href="experience.html" class="text-slate-600 hover:text-slate-900 transition-colors">Experience</a>
+                    <a href="projects.html" class="text-slate-600 hover:text-slate-900 transition-colors">Projects</a>
+                    <a href="skills.html" class="text-blue-600 font-medium hover:text-blue-700 transition-colors">Skills</a>
+                    <a href="contact.html" class="text-slate-600 hover:text-slate-900 transition-colors">Contact</a>
+                </div>
+
+                <!-- CTA Buttons -->
+                <div class="hidden md:flex items-center space-x-4">
+                    <!-- Theme Toggle -->
+                    <button id="theme-toggle" class="p-2 rounded-lg hover:bg-slate-100 transition-colors" aria-label="Toggle theme">
+                        <svg class="w-5 h-5 text-slate-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/>
+                        </svg>
+                    </button>
+                    
+                    <!-- Resume Download -->
+                    <a href="javascript:void(0)" class="btn-secondary text-sm">
+                        <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                        </svg>
+                        Resume
+                    </a>
+                    
+                    <!-- LinkedIn CTA -->
+                    <a href="https://linkedin.com/in/jameschanfeeney" target="_blank" class="btn-primary text-sm">
+                        <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                        </svg>
+                        Connect
+                    </a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button id="mobile-menu-button" class="md:hidden p-2 rounded-lg hover:bg-slate-100 transition-colors">
+                    <svg class="w-6 h-6 text-slate-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Mobile Navigation Menu -->
+            <div id="mobile-menu" class="hidden md:hidden py-4 border-t border-slate-200">
+                <div class="flex flex-col space-y-4">
+                    <a href="homepage.html" class="text-slate-600">Home</a>
+                    <a href="about.html" class="text-slate-600">About</a>
+                    <a href="experience.html" class="text-slate-600">Experience</a>
+                    <a href="projects.html" class="text-slate-600">Projects</a>
+                    <a href="skills.html" class="text-blue-600 font-medium">Skills</a>
+                    <a href="contact.html" class="text-slate-600">Contact</a>
+                    <div class="flex items-center space-x-4 pt-4 border-t border-slate-200">
+                        <a href="javascript:void(0)" class="btn-secondary text-sm flex-1 text-center">Resume</a>
+                        <a href="https://linkedin.com/in/jameschanfeeney" target="_blank" class="btn-primary text-sm flex-1 text-center">Connect</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="skills-hero" class="relative pt-24 pb-16 bg-gradient-to-br from-slate-50 via-white to-blue-50 overflow-hidden">
+        <!-- Background Pattern -->
+        <div class="absolute inset-0 opacity-5">
+            <div class="absolute inset-0" style="background-image: url('data:image/svg+xml,%3Csvg width=" 60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" %3E%3Cg fill="none" fill-rule="evenodd" fill-opacity="0.1" %3E%3Ccircle cx="7" cy="7" r="1" %3E%3C g%3E%3C svg%3E')"></div>
+        </div>
+
+        <!-- Floating Elements -->
+        <div class="absolute top-20 left-10 w-20 h-20 bg-blue-100 rounded-full opacity-20 animate-pulse-slow"></div>
+        <div class="absolute bottom-20 right-10 w-32 h-32 bg-sky-100 rounded-full opacity-20 animate-pulse-slow" style="animation-delay: 1s;"></div>
+
+        <div class="container-max px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center max-w-4xl mx-auto">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-slate-900 mb-6 leading-tight">
+                    Technical <span class="text-gradient">Expertise</span>
+                </h1>
+                <p class="text-xl md:text-2xl text-slate-600 mb-4 font-medium">
+                    From UCLA Theory to AWS Production Systems
+                </p>
+                <p class="text-lg text-slate-500 max-w-3xl mx-auto leading-relaxed mb-8">
+                    Comprehensive skill matrix showcasing progression from mathematical foundations to enterprise-scale engineering solutions with quantified proficiency levels and real-world applications
+                </p>
+
+                <!-- Quick Stats -->
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+                    <div class="text-center">
+                        <div class="text-3xl md:text-4xl font-bold text-blue-600 mb-2">15+</div>
+                        <div class="text-sm text-slate-600 font-medium">Core Technologies</div>
+                        <div class="text-xs text-slate-500 mt-1">Production Ready</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl md:text-4xl font-bold text-emerald-600 mb-2">5+</div>
+                        <div class="text-sm text-slate-600 font-medium">Years Learning</div>
+                        <div class="text-xs text-slate-500 mt-1">Continuous Growth</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl md:text-4xl font-bold text-sky-600 mb-2">3</div>
+                        <div class="text-sm text-slate-600 font-medium">Certifications</div>
+                        <div class="text-xs text-slate-500 mt-1">Industry Validated</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Filter Section -->
+    <section id="skills-filter" class="section-padding bg-white border-b border-slate-200">
+        <div class="container-max">
+            <div class="flex flex-col lg:flex-row items-center justify-between gap-6">
+                <!-- Filter Controls -->
+                <div class="flex flex-wrap items-center gap-4">
+                    <div class="flex items-center space-x-2">
+                        <svg class="w-5 h-5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.207A1 1 0 013 6.5V4z"/>
+                        </svg>
+                        <span class="text-sm font-medium text-slate-700">Filter by:</span>
+                    </div>
+                    
+                    <div class="flex flex-wrap gap-2">
+                        <button class="filter-btn active" data-filter="all">All Skills</button>
+                        <button class="filter-btn" data-filter="cloud">Cloud & Infrastructure</button>
+                        <button class="filter-btn" data-filter="data">Data Engineering</button>
+                        <button class="filter-btn" data-filter="programming">Programming</button>
+                        <button class="filter-btn" data-filter="tools">Tools & Platforms</button>
+                    </div>
+                </div>
+
+                <!-- View Toggle -->
+                <div class="flex items-center space-x-2">
+                    <span class="text-sm text-slate-600">View:</span>
+                    <div class="flex bg-slate-100 rounded-lg p-1">
+                        <button id="grid-view" class="view-toggle active px-3 py-1 rounded text-sm">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"/>
+                            </svg>
+                        </button>
+                        <button id="list-view" class="view-toggle px-3 py-1 rounded text-sm">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 10h16M4 14h16M4 18h16"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Matrix Section -->
+    <section id="skills-matrix" class="section-padding bg-slate-50">
+        <div class="container-max">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Interactive Skills Matrix</h2>
+                <p class="text-lg text-slate-600 max-w-2xl mx-auto">Comprehensive technical competencies with proficiency levels and real-world applications</p>
+            </div>
+
+            <!-- Skills Grid -->
+            <div id="skills-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Cloud & Infrastructure Skills -->
+                <div class="skill-card" data-category="cloud">
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="flex items-center">
+                            <div class="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center mr-4">
+                                <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="AWS" class="w-8 h-8 rounded object-cover" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-slate-900">Amazon Web Services</h3>
+                                <p class="text-sm text-slate-500">Cloud Infrastructure</p>
+                            </div>
+                        </div>
+                        <div class="skill-level" data-level="95">95%</div>
+                    </div>
+                    <div class="skill-progress mb-4">
+                        <div class="skill-bar" style="width: 95%"></div>
+                    </div>
+                    <div class="space-y-2 mb-4">
+                        <div class="flex flex-wrap gap-2">
+                            <span class="skill-tag">EC2</span>
+                            <span class="skill-tag">S3</span>
+                            <span class="skill-tag">Lambda</span>
+                            <span class="skill-tag">CloudFormation</span>
+                        </div>
+                    </div>
+                    <div class="text-sm text-slate-600 mb-3">
+                        <strong>Application:</strong> AWS EC2 Core team contribution, enterprise infrastructure optimization
+                    </div>
+                    <div class="achievement-badge">
+                        <svg class="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                        </svg>
+                        Production Scale
+                    </div>
+                </div>
+
+                <!-- Data Engineering Skills -->
+                <div class="skill-card" data-category="data">
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="flex items-center">
+                            <div class="w-12 h-12 bg-emerald-100 rounded-lg flex items-center justify-center mr-4">
+                                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="PySpark" class="w-8 h-8 rounded object-cover" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-slate-900">Apache Spark (PySpark)</h3>
+                                <p class="text-sm text-slate-500">Big Data Processing</p>
+                            </div>
+                        </div>
+                        <div class="skill-level" data-level="90">90%</div>
+                    </div>
+                    <div class="skill-progress mb-4">
+                        <div class="skill-bar" style="width: 90%"></div>
+                    </div>
+                    <div class="space-y-2 mb-4">
+                        <div class="flex flex-wrap gap-2">
+                            <span class="skill-tag">DataFrames</span>
+                            <span class="skill-tag">RDDs</span>
+                            <span class="skill-tag">SQL</span>
+                            <span class="skill-tag">MLlib</span>
+                        </div>
+                    </div>
+                    <div class="text-sm text-slate-600 mb-3">
+                        <strong>Application:</strong> 70% performance improvement in data processing pipelines at FedEx
+                    </div>
+                    <div class="achievement-badge">
+                        <svg class="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                        </svg>
+                        70% Faster Processing
+                    </div>
+                </div>
+
+                <!-- Programming Skills -->
+                <div class="skill-card" data-category="programming">
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="flex items-center">
+                            <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mr-4">
+                                <img src="https://images.unsplash.com/photo-1526379095098-d400fd0bf935?q=80&w=2064&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Python" class="w-8 h-8 rounded object-cover" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-slate-900">Python</h3>
+                                <p class="text-sm text-slate-500">Primary Language</p>
+                            </div>
+                        </div>
+                        <div class="skill-level" data-level="92">92%</div>
+                    </div>
+                    <div class="skill-progress mb-4">
+                        <div class="skill-bar" style="width: 92%"></div>
+                    </div>
+                    <div class="space-y-2 mb-4">
+                        <div class="flex flex-wrap gap-2">
+                            <span class="skill-tag">Pandas</span>
+                            <span class="skill-tag">NumPy</span>
+                            <span class="skill-tag">FastAPI</span>
+                            <span class="skill-tag">Django</span>
+                        </div>
+                    </div>
+                    <div class="text-sm text-slate-600 mb-3">
+                        <strong>Application:</strong> Data analysis, API development, automation scripts
+                    </div>
+                    <div class="achievement-badge">
+                        <svg class="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                        </svg>
+                        5+ Years Experience
+                    </div>
+                </div>
+
+                <!-- Mathematics & Analytics -->
+                <div class="skill-card" data-category="programming">
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="flex items-center">
+                            <div class="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mr-4">
+                                <img src="https://images.unsplash.com/photo-1518186285589-2f7649de83e0?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Mathematics" class="w-8 h-8 rounded object-cover" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-slate-900">Mathematics & Analytics</h3>
+                                <p class="text-sm text-slate-500">UCLA Foundation</p>
+                            </div>
+                        </div>
+                        <div class="skill-level" data-level="88">88%</div>
+                    </div>
+                    <div class="skill-progress mb-4">
+                        <div class="skill-bar" style="width: 88%"></div>
+                    </div>
+                    <div class="space-y-2 mb-4">
+                        <div class="flex flex-wrap gap-2">
+                            <span class="skill-tag">Statistics</span>
+                            <span class="skill-tag">Linear Algebra</span>
+                            <span class="skill-tag">Calculus</span>
+                            <span class="skill-tag">Optimization</span>
+                        </div>
+                    </div>
+                    <div class="text-sm text-slate-600 mb-3">
+                        <strong>Application:</strong> Algorithm optimization, data modeling, performance analysis
+                    </div>
+                    <div class="achievement-badge">
+                        <svg class="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                        </svg>
+                        UCLA Graduate
+                    </div>
+                </div>
+
+                <!-- SQL & Databases -->
+                <div class="skill-card" data-category="data">
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="flex items-center">
+                            <div class="w-12 h-12 bg-indigo-100 rounded-lg flex items-center justify-center mr-4">
+                                <img src="https://images.unsplash.com/photo-1544383835-bda2bc66a55d?q=80&w=2021&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="SQL" class="w-8 h-8 rounded object-cover" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-slate-900">SQL & Databases</h3>
+                                <p class="text-sm text-slate-500">Data Management</p>
+                            </div>
+                        </div>
+                        <div class="skill-level" data-level="85">85%</div>
+                    </div>
+                    <div class="skill-progress mb-4">
+                        <div class="skill-bar" style="width: 85%"></div>
+                    </div>
+                    <div class="space-y-2 mb-4">
+                        <div class="flex flex-wrap gap-2">
+                            <span class="skill-tag">PostgreSQL</span>
+                            <span class="skill-tag">MySQL</span>
+                            <span class="skill-tag">MongoDB</span>
+                            <span class="skill-tag">Redis</span>
+                        </div>
+                    </div>
+                    <div class="text-sm text-slate-600 mb-3">
+                        <strong>Application:</strong> Complex queries, data warehousing, performance optimization
+                    </div>
+                    <div class="achievement-badge">
+                        <svg class="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                        </svg>
+                        Enterprise Ready
+                    </div>
+                </div>
+
+                <!-- DevOps & Tools -->
+                <div class="skill-card" data-category="tools">
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="flex items-center">
+                            <div class="w-12 h-12 bg-slate-100 rounded-lg flex items-center justify-center mr-4">
+                                <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=2034&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="DevOps" class="w-8 h-8 rounded object-cover" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-slate-900">DevOps & Infrastructure</h3>
+                                <p class="text-sm text-slate-500">Automation & Deployment</p>
+                            </div>
+                        </div>
+                        <div class="skill-level" data-level="80">80%</div>
+                    </div>
+                    <div class="skill-progress mb-4">
+                        <div class="skill-bar" style="width: 80%"></div>
+                    </div>
+                    <div class="space-y-2 mb-4">
+                        <div class="flex flex-wrap gap-2">
+                            <span class="skill-tag">Docker</span>
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">CI/CD</span>
+                            <span class="skill-tag">Linux</span>
+                        </div>
+                    </div>
+                    <div class="text-sm text-slate-600 mb-3">
+                        <strong>Application:</strong> Containerization, version control, automated deployments
+                    </div>
+                    <div class="achievement-badge">
+                        <svg class="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                        </svg>
+                        Production Experience
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Timeline Section -->
+    <section id="technology-timeline" class="section-padding bg-white">
+        <div class="container-max">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Learning Journey</h2>
+                <p class="text-lg text-slate-600 max-w-2xl mx-auto">Evolution of technical capabilities from academic foundations to enterprise applications</p>
+            </div>
+
+            <div class="relative">
+                <!-- Timeline Line -->
+                <div class="absolute left-1/2 transform -translate-x-px h-full w-0.5 bg-slate-200"></div>
+
+                <!-- Timeline Items -->
+                <div class="space-y-12">
+                    <!-- 2020 - UCLA Foundation -->
+                    <div class="relative flex items-center">
+                        <div class="flex-1 pr-8 text-right">
+                            <div class="card">
+                                <div class="flex items-center justify-end mb-3">
+                                    <div class="text-right mr-4">
+                                        <h3 class="font-semibold text-slate-900">Mathematical Foundations</h3>
+                                        <p class="text-sm text-slate-500">UCLA Mathematics Program</p>
+                                    </div>
+                                    <div class="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center">
+                                        <svg class="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <p class="text-slate-600 text-sm mb-3">Built strong analytical foundation with advanced calculus, linear algebra, and statistical analysis</p>
+                                <div class="flex flex-wrap gap-2 justify-end">
+                                    <span class="skill-tag">Calculus</span>
+                                    <span class="skill-tag">Statistics</span>
+                                    <span class="skill-tag">Linear Algebra</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Timeline Dot -->
+                        <div class="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-purple-600 rounded-full border-4 border-white shadow-md z-10"></div>
+                        
+                        <!-- Year Label -->
+                        <div class="flex-1 pl-8">
+                            <div class="text-2xl font-bold text-slate-400">2020</div>
+                        </div>
+                    </div>
+
+                    <!-- 2021 - Programming Introduction -->
+                    <div class="relative flex items-center">
+                        <div class="flex-1 pr-8 text-right">
+                            <div class="text-2xl font-bold text-slate-400">2021</div>
+                        </div>
+                        
+                        <!-- Timeline Dot -->
+                        <div class="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-blue-600 rounded-full border-4 border-white shadow-md z-10"></div>
+                        
+                        <div class="flex-1 pl-8">
+                            <div class="card">
+                                <div class="flex items-center mb-3">
+                                    <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mr-4">
+                                        <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/>
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <h3 class="font-semibold text-slate-900">Programming Fundamentals</h3>
+                                        <p class="text-sm text-slate-500">Python & Data Structures</p>
+                                    </div>
+                                </div>
+                                <p class="text-slate-600 text-sm mb-3">Mastered Python programming, algorithms, and data structures with focus on mathematical applications</p>
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="skill-tag">Python</span>
+                                    <span class="skill-tag">Algorithms</span>
+                                    <span class="skill-tag">Data Structures</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 2022 - Data Science -->
+                    <div class="relative flex items-center">
+                        <div class="flex-1 pr-8 text-right">
+                            <div class="card">
+                                <div class="flex items-center justify-end mb-3">
+                                    <div class="text-right mr-4">
+                                        <h3 class="font-semibold text-slate-900">Data Science & Analytics</h3>
+                                        <p class="text-sm text-slate-500">Advanced Python Libraries</p>
+                                    </div>
+                                    <div class="w-12 h-12 bg-emerald-100 rounded-lg flex items-center justify-center">
+                                        <svg class="w-6 h-6 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <p class="text-slate-600 text-sm mb-3">Developed expertise in data analysis, visualization, and machine learning with Pandas, NumPy, and Scikit-learn</p>
+                                <div class="flex flex-wrap gap-2 justify-end">
+                                    <span class="skill-tag">Pandas</span>
+                                    <span class="skill-tag">NumPy</span>
+                                    <span class="skill-tag">Matplotlib</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Timeline Dot -->
+                        <div class="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-emerald-600 rounded-full border-4 border-white shadow-md z-10"></div>
+                        
+                        <div class="flex-1 pl-8">
+                            <div class="text-2xl font-bold text-slate-400">2022</div>
+                        </div>
+                    </div>
+
+                    <!-- 2023 - Cloud & Big Data -->
+                    <div class="relative flex items-center">
+                        <div class="flex-1 pr-8 text-right">
+                            <div class="text-2xl font-bold text-slate-400">2023</div>
+                        </div>
+                        
+                        <!-- Timeline Dot -->
+                        <div class="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-orange-600 rounded-full border-4 border-white shadow-md z-10"></div>
+                        
+                        <div class="flex-1 pl-8">
+                            <div class="card">
+                                <div class="flex items-center mb-3">
+                                    <div class="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center mr-4">
+                                        <svg class="w-6 h-6 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"/>
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <h3 class="font-semibold text-slate-900">Cloud & Big Data</h3>
+                                        <p class="text-sm text-slate-500">AWS & Apache Spark</p>
+                                    </div>
+                                </div>
+                                <p class="text-slate-600 text-sm mb-3">Mastered cloud infrastructure and big data processing with AWS services and PySpark for enterprise-scale solutions</p>
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="skill-tag">AWS</span>
+                                    <span class="skill-tag">PySpark</span>
+                                    <span class="skill-tag">EC2</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 2024 - Production Systems -->
+                    <div class="relative flex items-center">
+                        <div class="flex-1 pr-8 text-right">
+                            <div class="card">
+                                <div class="flex items-center justify-end mb-3">
+                                    <div class="text-right mr-4">
+                                        <h3 class="font-semibold text-slate-900">Production Engineering</h3>
+                                        <p class="text-sm text-slate-500">Enterprise Scale Systems</p>
+                                    </div>
+                                    <div class="w-12 h-12 bg-sky-100 rounded-lg flex items-center justify-center">
+                                        <svg class="w-6 h-6 text-sky-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <p class="text-slate-600 text-sm mb-3">Applied skills to production systems achieving 70% performance improvements and $1M+ cost savings</p>
+                                <div class="flex flex-wrap gap-2 justify-end">
+                                    <span class="skill-tag">Performance Optimization</span>
+                                    <span class="skill-tag">Cost Reduction</span>
+                                    <span class="skill-tag">Scale</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Timeline Dot -->
+                        <div class="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-sky-600 rounded-full border-4 border-white shadow-md z-10"></div>
+                        
+                        <div class="flex-1 pl-8">
+                            <div class="text-2xl font-bold text-slate-400">2024</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications & Learning Roadmap -->
+    <section id="certifications" class="section-padding bg-slate-50">
+        <div class="container-max">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Certifications & Learning Roadmap</h2>
+                <p class="text-lg text-slate-600 max-w-2xl mx-auto">Industry-validated credentials and continuous learning commitment</p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <!-- Current Certifications -->
+                <div>
+                    <h3 class="text-2xl font-semibold text-slate-900 mb-8 flex items-center">
+                        <svg class="w-6 h-6 text-emerald-600 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/>
+                        </svg>
+                        Current Certifications
+                    </h3>
+
+                    <div class="space-y-6">
+                        <!-- AWS Cloud Practitioner -->
+                        <div class="card">
+                            <div class="flex items-center justify-between mb-4">
+                                <div class="flex items-center">
+                                    <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="AWS" class="w-12 h-12 rounded-lg object-cover mr-4" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                                    <div>
+                                        <h4 class="font-semibold text-slate-900">AWS Cloud Practitioner</h4>
+                                        <p class="text-sm text-slate-500">Amazon Web Services</p>
+                                    </div>
+                                </div>
+                                <div class="text-right">
+                                    <div class="text-sm font-medium text-emerald-600">Certified</div>
+                                    <div class="text-xs text-slate-500">Valid until 2026</div>
+                                </div>
+                            </div>
+                            <p class="text-slate-600 text-sm">Foundational understanding of AWS cloud services, security, and pricing models</p>
+                        </div>
+
+                        <!-- Mathematics Degree -->
+                        <div class="card">
+                            <div class="flex items-center justify-between mb-4">
+                                <div class="flex items-center">
+                                    <img src="https://images.unsplash.com/photo-1607237138185-eedd9c632b0b?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="UCLA" class="w-12 h-12 rounded-lg object-cover mr-4" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                                    <div>
+                                        <h4 class="font-semibold text-slate-900">B.S. Mathematics</h4>
+                                        <p class="text-sm text-slate-500">UCLA</p>
+                                    </div>
+                                </div>
+                                <div class="text-right">
+                                    <div class="text-sm font-medium text-emerald-600">Completed</div>
+                                    <div class="text-xs text-slate-500">2024</div>
+                                </div>
+                            </div>
+                            <p class="text-slate-600 text-sm">Strong foundation in mathematical analysis, statistics, and computational methods</p>
+                        </div>
+
+                        <!-- Python Certification -->
+                        <div class="card">
+                            <div class="flex items-center justify-between mb-4">
+                                <div class="flex items-center">
+                                    <img src="https://images.unsplash.com/photo-1526379095098-d400fd0bf935?q=80&w=2064&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Python" class="w-12 h-12 rounded-lg object-cover mr-4" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                                    <div>
+                                        <h4 class="font-semibold text-slate-900">Python Professional</h4>
+                                        <p class="text-sm text-slate-500">Python Institute</p>
+                                    </div>
+                                </div>
+                                <div class="text-right">
+                                    <div class="text-sm font-medium text-emerald-600">Certified</div>
+                                    <div class="text-xs text-slate-500">2023</div>
+                                </div>
+                            </div>
+                            <p class="text-slate-600 text-sm">Advanced Python programming skills including OOP, data structures, and libraries</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Learning Roadmap -->
+                <div>
+                    <h3 class="text-2xl font-semibold text-slate-900 mb-8 flex items-center">
+                        <svg class="w-6 h-6 text-blue-600 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"/>
+                        </svg>
+                        Learning Roadmap 2025
+                    </h3>
+
+                    <div class="space-y-6">
+                        <!-- AWS Solutions Architect -->
+                        <div class="card border-l-4 border-l-blue-500">
+                            <div class="flex items-center justify-between mb-4">
+                                <div class="flex items-center">
+                                    <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="AWS" class="w-12 h-12 rounded-lg object-cover mr-4" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                                    <div>
+                                        <h4 class="font-semibold text-slate-900">AWS Solutions Architect</h4>
+                                        <p class="text-sm text-slate-500">Associate Level</p>
+                                    </div>
+                                </div>
+                                <div class="text-right">
+                                    <div class="text-sm font-medium text-blue-600">Q2 2025</div>
+                                    <div class="text-xs text-slate-500">In Progress</div>
+                                </div>
+                            </div>
+                            <p class="text-slate-600 text-sm mb-3">Advanced AWS architecture design and implementation skills</p>
+                            <div class="w-full bg-slate-200 rounded-full h-2">
+                                <div class="bg-blue-600 h-2 rounded-full" style="width: 60%"></div>
+                            </div>
+                        </div>
+
+                        <!-- Kubernetes -->
+                        <div class="card border-l-4 border-l-sky-500">
+                            <div class="flex items-center justify-between mb-4">
+                                <div class="flex items-center">
+                                    <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=2034&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Kubernetes" class="w-12 h-12 rounded-lg object-cover mr-4" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                                    <div>
+                                        <h4 class="font-semibold text-slate-900">Kubernetes Administrator</h4>
+                                        <p class="text-sm text-slate-500">CKA Certification</p>
+                                    </div>
+                                </div>
+                                <div class="text-right">
+                                    <div class="text-sm font-medium text-sky-600">Q3 2025</div>
+                                    <div class="text-xs text-slate-500">Planned</div>
+                                </div>
+                            </div>
+                            <p class="text-slate-600 text-sm mb-3">Container orchestration and cluster management expertise</p>
+                            <div class="w-full bg-slate-200 rounded-full h-2">
+                                <div class="bg-sky-600 h-2 rounded-full" style="width: 30%"></div>
+                            </div>
+                        </div>
+
+                        <!-- Machine Learning -->
+                        <div class="card border-l-4 border-l-purple-500">
+                            <div class="flex items-center justify-between mb-4">
+                                <div class="flex items-center">
+                                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Machine Learning" class="w-12 h-12 rounded-lg object-cover mr-4" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                                    <div>
+                                        <h4 class="font-semibold text-slate-900">ML Engineering</h4>
+                                        <p class="text-sm text-slate-500">TensorFlow Developer</p>
+                                    </div>
+                                </div>
+                                <div class="text-right">
+                                    <div class="text-sm font-medium text-purple-600">Q4 2025</div>
+                                    <div class="text-xs text-slate-500">Planned</div>
+                                </div>
+                            </div>
+                            <p class="text-slate-600 text-sm mb-3">Advanced machine learning model development and deployment</p>
+                            <div class="w-full bg-slate-200 rounded-full h-2">
+                                <div class="bg-purple-600 h-2 rounded-full" style="width: 15%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Radar Chart Section -->
+    <section id="skills-radar" class="section-padding bg-white">
+        <div class="container-max">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Competency Radar</h2>
+                <p class="text-lg text-slate-600 max-w-2xl mx-auto">Visual representation of technical proficiency across key domains</p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <!-- Radar Chart Placeholder -->
+                <div class="relative">
+                    <div class="aspect-square bg-slate-50 rounded-2xl p-8 flex items-center justify-center">
+                        <!-- SVG Radar Chart -->
+                        <svg viewBox="0 0 400 400" class="w-full h-full max-w-md">
+                            <!-- Grid Lines -->
+                            <g stroke="#e2e8f0" stroke-width="1" fill="none">
+                                <!-- Concentric circles -->
+                                <circle cx="200" cy="200" r="160" opacity="0.3"/>
+                                <circle cx="200" cy="200" r="120" opacity="0.3"/>
+                                <circle cx="200" cy="200" r="80" opacity="0.3"/>
+                                <circle cx="200" cy="200" r="40" opacity="0.3"/>
+                                
+                                <!-- Axis lines -->
+                                <line x1="200" y1="40" x2="200" y2="360"/>
+                                <line x1="40" y1="200" x2="360" y2="200"/>
+                                <line x1="86" y1="86" x2="314" y2="314"/>
+                                <line x1="314" y1="86" x2="86" y2="314"/>
+                            </g>
+                            
+                            <!-- Skill Areas -->
+                            <g fill="rgba(37, 99, 235, 0.2)" stroke="#2563eb" stroke-width="2">
+                                <polygon points="200,56 314,114 286,286 114,286 86,114" opacity="0.7"/>
+                            </g>
+                            
+                            <!-- Data Points -->
+                            <g fill="#2563eb" stroke="#ffffff" stroke-width="2">
+                                <circle cx="200" cy="56" r="4"/> <!-- Cloud -->
+                                <circle cx="314" cy="114" r="4"/> <!-- Data Engineering -->
+                                <circle cx="286" cy="286" r="4"/> <!-- Programming -->
+                                <circle cx="114" cy="286" r="4"/> <!-- Mathematics -->
+                                <circle cx="86" cy="114" r="4"/> <!-- DevOps -->
+                            </g>
+                            
+                            <!-- Labels -->
+                            <g fill="#475569" font-family="Inter" font-size="14" font-weight="500" text-anchor="middle">
+                                <text x="200" y="30">Cloud Infrastructure</text>
+                                <text x="340" y="120">Data Engineering</text>
+                                <text x="300" y="315">Programming</text>
+                                <text x="100" y="315">Mathematics</text>
+                                <text x="60" y="120">DevOps</text>
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+
+                <!-- Skill Breakdown -->
+                <div class="space-y-6">
+                    <div class="flex items-center justify-between p-4 bg-slate-50 rounded-lg">
+                        <div class="flex items-center">
+                            <div class="w-4 h-4 bg-blue-600 rounded-full mr-3"></div>
+                            <span class="font-medium text-slate-900">Cloud Infrastructure</span>
+                        </div>
+                        <div class="text-right">
+                            <div class="font-semibold text-blue-600">95%</div>
+                            <div class="text-xs text-slate-500">Expert Level</div>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center justify-between p-4 bg-slate-50 rounded-lg">
+                        <div class="flex items-center">
+                            <div class="w-4 h-4 bg-emerald-600 rounded-full mr-3"></div>
+                            <span class="font-medium text-slate-900">Data Engineering</span>
+                        </div>
+                        <div class="text-right">
+                            <div class="font-semibold text-emerald-600">90%</div>
+                            <div class="text-xs text-slate-500">Advanced</div>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center justify-between p-4 bg-slate-50 rounded-lg">
+                        <div class="flex items-center">
+                            <div class="w-4 h-4 bg-purple-600 rounded-full mr-3"></div>
+                            <span class="font-medium text-slate-900">Programming</span>
+                        </div>
+                        <div class="text-right">
+                            <div class="font-semibold text-purple-600">92%</div>
+                            <div class="text-xs text-slate-500">Advanced</div>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center justify-between p-4 bg-slate-50 rounded-lg">
+                        <div class="flex items-center">
+                            <div class="w-4 h-4 bg-orange-600 rounded-full mr-3"></div>
+                            <span class="font-medium text-slate-900">Mathematics</span>
+                        </div>
+                        <div class="text-right">
+                            <div class="font-semibold text-orange-600">88%</div>
+                            <div class="text-xs text-slate-500">Advanced</div>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center justify-between p-4 bg-slate-50 rounded-lg">
+                        <div class="flex items-center">
+                            <div class="w-4 h-4 bg-slate-600 rounded-full mr-3"></div>
+                            <span class="font-medium text-slate-900">DevOps & Tools</span>
+                        </div>
+                        <div class="text-right">
+                            <div class="font-semibold text-slate-600">80%</div>
+                            <div class="text-xs text-slate-500">Intermediate+</div>
+                        </div>
+                    </div>
+
+                    <div class="mt-8 p-6 bg-blue-50 rounded-lg">
+                        <h4 class="font-semibold text-slate-900 mb-2">Skill Assessment Methodology</h4>
+                        <p class="text-sm text-slate-600">Proficiency levels based on practical application, project complexity, and measurable outcomes in production environments.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="cta" class="section-padding bg-gradient-to-r from-blue-600 to-sky-500">
+        <div class="container-max text-center">
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">Ready to Apply These Skills?</h2>
+            <p class="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">Let's discuss how my technical expertise can contribute to your next project or team.</p>
+            
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                <a href="contact.html" class="bg-white text-blue-600 hover:bg-blue-50 font-semibold px-8 py-4 rounded-lg transition-colors duration-300 w-full sm:w-auto">
+                    <svg class="w-5 h-5 mr-2 inline" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                    </svg>
+                    Start a Conversation
+                </a>
+                <a href="experience.html" class="bg-transparent border-2 border-white text-white hover:bg-white hover:text-blue-600 font-semibold px-8 py-4 rounded-lg transition-colors duration-300 w-full sm:w-auto">
+                    <svg class="w-5 h-5 mr-2 inline" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2-2v2m8 0V6a2 2 0 00-2 2H8a2 2 0 00-2-2V6m8 0h2a2 2 0 012 2v6a2 2 0 01-2 2H6a2 2 0 01-2-2V8a2 2 0 012-2h2"/>
+                    </svg>
+                    View Experience
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-white section-padding">
+        <div class="container-max">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+                <!-- Brand -->
+                <div class="md:col-span-2">
+                    <div class="flex items-center space-x-2 mb-4">
+                        <div class="w-10 h-10 bg-gradient-to-br from-blue-600 to-sky-500 rounded-lg flex items-center justify-center">
+                            <span class="text-white font-bold text-lg">JC</span>
+                        </div>
+                        <span class="font-semibold text-xl">James Chan Feeney</span>
+                    </div>
+                    <p class="text-slate-300 mb-4 max-w-md">Software Engineer and Data Scientist combining mathematical precision with scalable engineering solutions.</p>
+                    <div class="flex space-x-4">
+                        <a href="https://linkedin.com/in/jameschanfeeney" target="_blank" class="text-slate-400 hover:text-white transition-colors">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                        </a>
+                        <a href="https://github.com/jameschanfeeney" target="_blank" class="text-slate-400 hover:text-white transition-colors">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                        </a>
+                        <a href="mailto:james@example.com" class="text-slate-400 hover:text-white transition-colors">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="font-semibold text-lg mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="about.html" class="text-slate-300 hover:text-white transition-colors">About</a></li>
+                        <li><a href="experience.html" class="text-slate-300 hover:text-white transition-colors">Experience</a></li>
+                        <li><a href="projects.html" class="text-slate-300 hover:text-white transition-colors">Projects</a></li>
+                        <li><a href="skills.html" class="text-slate-300 hover:text-white transition-colors">Skills</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div>
+                    <h4 class="font-semibold text-lg mb-4">Contact</h4>
+                    <ul class="space-y-2 text-slate-300">
+                        <li>Los Angeles, CA</li>
+                        <li>james@example.com</li>
+                        <li><a href="contact.html" class="hover:text-white transition-colors">Get In Touch</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-slate-700 pt-8 text-center">
+                <p class="text-slate-400">© 2025 James Chan Feeney. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Theme toggle functionality
+        const themeToggle = document.getElementById('theme-toggle');
+        themeToggle.addEventListener('click', () => {
+            console.log('Theme toggle clicked');
+        });
+
+        // Skills filtering functionality
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        const skillCards = document.querySelectorAll('.skill-card');
+
+        filterButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                // Remove active class from all buttons
+                filterButtons.forEach(btn => btn.classList.remove('active'));
+                // Add active class to clicked button
+                button.classList.add('active');
+
+                const filterValue = button.getAttribute('data-filter');
+
+                skillCards.forEach(card => {
+                    if (filterValue === 'all' || card.getAttribute('data-category') === filterValue) {
+                        card.style.display = 'block';
+                        card.classList.add('animation-fade-in');
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+
+        // View toggle functionality
+        const gridView = document.getElementById('grid-view');
+        const listView = document.getElementById('list-view');
+        const skillsGrid = document.getElementById('skills-grid');
+
+        gridView.addEventListener('click', () => {
+            gridView.classList.add('active');
+            listView.classList.remove('active');
+            skillsGrid.className = 'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6';
+        });
+
+        listView.addEventListener('click', () => {
+            listView.classList.add('active');
+            gridView.classList.remove('active');
+            skillsGrid.className = 'space-y-4';
+        });
+
+        // Skill bar animations
+        function animateSkillBars() {
+            const skillBars = document.querySelectorAll('.skill-bar');
+            skillBars.forEach(bar => {
+                const width = bar.style.width;
+                bar.style.width = '0%';
+                setTimeout(() => {
+                    bar.style.width = width;
+                }, 100);
+            });
+        }
+
+        // Intersection Observer for animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animation-fade-in');
+                    
+                    // Trigger skill bar animation when skills matrix is visible
+                    if (entry.target.id === 'skills-matrix') {
+                        setTimeout(animateSkillBars, 500);
+                    }
+                }
+            });
+        }, observerOptions);
+
+        // Header scroll effect
+        document.addEventListener('DOMContentLoaded', () => {
+            const sections = document.querySelectorAll('section');
+            sections.forEach(section => observer.observe(section));
+
+            const header = document.getElementById('header');
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 100) {
+                    header.classList.add('shadow-md');
+                } else {
+                    header.classList.remove('shadow-md');
+                }
+            });
+
+            // Initialize skill bar animations
+            setTimeout(animateSkillBars, 1000);
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+
+    <style>
+        .filter-btn {
+            @apply px-4 py-2 text-sm font-medium text-slate-600 bg-white border border-slate-200 rounded-lg hover:bg-slate-50 transition-colors duration-200;
+        }
+
+        .filter-btn.active {
+            @apply bg-blue-600 text-white border-blue-600;
+        }
+
+        .view-toggle {
+            @apply text-slate-600 hover:text-slate-900 transition-colors duration-200;
+        }
+
+        .view-toggle.active {
+            @apply bg-white text-blue-600 shadow-sm;
+        }
+
+        .skill-card {
+            @apply bg-white border border-slate-200 rounded-lg p-6 shadow-sm hover:shadow-md transition-all duration-300 ease-in-out;
+        }
+
+        .skill-level {
+            @apply text-lg font-semibold text-slate-900;
+        }
+
+        .skill-progress {
+            @apply w-full bg-slate-200 rounded-full h-3 overflow-hidden;
+        }
+
+        .skill-bar {
+            @apply h-full bg-gradient-to-r from-blue-600 to-sky-500 rounded-full transition-all duration-1000 ease-out;
+        }
+
+        .skill-tag {
+            @apply inline-block px-2 py-1 text-xs font-medium bg-slate-100 text-slate-700 rounded;
+        }
+
+        .animate-pulse-slow {
+            animation: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                opacity: 0.2;
+            }
+            50% {
+                opacity: 0.4;
+            }
+        }
+    </style>
+<script id="dhws-dataInjector" src="../public/dhws-data-injector.js"></script>
+</body>
+</html>
